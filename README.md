@@ -2,6 +2,10 @@
 
 A Python desktop application built with **Tkinter** for the GUI and **Matplotlib** for interactive plotting, which analyzes and visualizes the normalized performance of multiple stock symbols over a specified time period using data from Yahoo Finance.
 
+## 🖼 Application Screenshot
+
+![Screenshot of the Stock Analyzer App showing the input fields and the Matplotlib chart embedded with the toolbar.](Screenshot.png)
+
 ## ✨ Features
 
 * **Normalized Analysis:** Calculates the total return series for multiple assets, scaling the performance such that the **final value of all assets is \$1.00**. This makes it easy to compare how much initial capital was required for each asset to reach the same end-point value.
@@ -35,6 +39,6 @@ You need **Python 3.6+** installed.
 Clone the repository and install the required Python libraries:
 
 ```bash
-git clone <YOUR_GITHUB_REPO_URL>
+git clone https://github.com/Wang-Yue/Normalized-Stock-Performance-Analyzer
 cd Normalized-Stock-Performance-Analyzer
 pip install -r requirements.txt
